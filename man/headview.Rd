@@ -6,12 +6,18 @@
 \usage{
 headview(x, numrows = 100)
 }
-\description{
-@description Shows in Rstudio only the top portion of a dataset.
-}
-\details{
-@param x data frame
-@param numrows how many rows you want to display
+\arguments{
+\item{x}{data frame}
 
-@export
+\item{numrows}{how many rows you want to display}
+}
+\value{
+opens the Rstudio viewer with the first observations.
+}
+\description{
+Quick function to show data
+}
+\examples{
+
+
 }

@@ -6,16 +6,16 @@
 \usage{
 unique_id(x, varnames, verbose = FALSE)
 }
-\description{
-@description to check for unique identifiers in data.
+\arguments{
+\item{x}{data frame}
+
+\item{varnames}{character vector of variable names.}
+
+\item{verbose}{if TRUE the function returns a message about whether the variables are a unique identifier or not.}
 }
-\details{
-@param x data frame
-@param varnames character vector of variable names.
-@param verbose  if TRUE the function returns a message about whether the variables are a unique identifier or not.
-
-@import data.table
-@export
-
-@return  logical value representing whether the two variables determine a unique identifier for the data
+\value{
+logical value representing whether the two variables determine a unique identifier for the data
+}
+\description{
+to check for unique identifiers in data.
 }
