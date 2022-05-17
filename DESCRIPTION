@@ -1,5 +1,5 @@
 Package: RmyTools
-Title: What the Package Does (One Line, Title Case)
+Title: Pietro's Miscellaneous Utility functions.
 Version: 0.1
 Authors@R: 
     person(given = "Pietro",
